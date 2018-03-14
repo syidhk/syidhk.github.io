@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <title>index</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/global.js"></script>
+</head>
+
+<body>
+
+<!-- 头部 -->
+<div class="header wow fadeInDown">
+  <div class="brand ">
+      <a href="./index.html"><img src="images/logo.png" alt=""></a>
+  </div>
+  <div class="header-sideb ">
+    <div class="header-lang">
+      <p><a href="#">en</a><span>/</span><a href="#">中</a></p>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="./aboutus.html">ABOUT</a></li>
+        <li><a href="./project.html">Projects</a></li>
+        <li  class="on"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<!-- /头部 -->
+
+<!-- 产品头部 -->
+<div class="projects-head" style="background:url('./images/contact-banner.jpg') no-repeat center 0;background-size:cover;">
+  <div class="projects-head-text ">
+    <h4 class="wow fadeInUp title">CONTACT US</h4>
+    <p class="wow fadeInUp">Let's Establish Relations : )</p>
+  </div>
+
+</div>
+<!-- /产品头部 -->
+<!-- 标题 -->
+<div class="contact-headline ac">
+  <h3>office information</h3>
+  <h2>You Can Contact Our Office</h2>
+</div>
+<!--/标题 -->
+<!-- 联系列表 -->
+<div class="contact-list ac cf">
+  <div class="items">
+    <div class="items-pic">
+      <img src="images/demo01.jpg" alt="">
+    </div>
+    <div class="items-text">
+      <h4><span>HongKong</span></h4>
+      <ul>
+        <li>Contact person: Mr. Yang.</li>
+        <li>Fax no. : 852-9876 5432.</li>
+        <li>Hotline: 852-9876 5432.</li>
+        <li>Email: 10394034898@xxxxx.com.</li>
+        <li>Company: the 21st floor of the duke building, 15 queen's road, central, Hong Kong.</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="items">
+    <div class="items-pic">
+      <img src="images/demo01.jpg" alt="">
+    </div>
+    <div class="items-text">
+      <h4><span>ShangHai</span></h4>
+      <ul>
+        <li>Contact person: Mr. Yang.</li>
+        <li>Fax no. : 852-9876 5432.</li>
+        <li>Hotline: 852-9876 5432.</li>
+        <li>Email: 10394034898@xxxxx.com.</li>
+        <li>Company: the 21st floor of the duke building, 15 queen's road, central, Hong Kong.</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="items">
+    <div class="items-pic">
+      <img src="images/demo01.jpg" alt="">
+    </div>
+    <div class="items-text">
+      <h4><span>GuangZhou</span></h4>
+      <ul>
+        <li>Contact person: Mr. Yang.</li>
+        <li>Fax no. : 852-9876 5432.</li>
+        <li>Hotline: 852-9876 5432.</li>
+        <li>Email: 10394034898@xxxxx.com.</li>
+        <li>Company: the 21st floor of the duke building, 15 queen's road, central, Hong Kong.</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="items">
+    <div class="items-pic">
+      <img src="images/demo01.jpg" alt="">
+    </div>
+    <div class="items-text">
+      <h4><span>TianJin</span></h4>
+      <ul>
+        <li>Contact person: Mr. Yang.</li>
+        <li>Fax no. : 852-9876 5432.</li>
+        <li>Hotline: 852-9876 5432.</li>
+        <li>Email: 10394034898@xxxxx.com.</li>
+        <li>Company: the 21st floor of the duke building, 15 queen's road, central, Hong Kong.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- /联系列表 -->
+
+
+<!-- 底部 -->
+<div class="footer wow fadeInUp">
+  <div class="footer-brand">
+    <a href="#"><img src="images/footer-logo.png" alt=""></a></div>
+  <div class="footer-copyright">
+    <p>Copyright©2017-2020</p>
+    <p><a href="#">www.syid.com</a></p>
+    <p> <span>Tel:   825-139 1039 4838</span><span>021-139 4858 2203</span></p>
+
+  </div>
+</div>
+<!-- /底部 -->
+<script>
+  $('.contact-list .items').addClass('wow fadeInUp');
+  new WOW().init();
+
+  $('.projects-nav li').on('click', function() {
+    $(this).addClass('on').siblings().removeClass('on');
+  });
+</script>
+</body>
+</html>

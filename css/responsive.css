@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*sass变量*/
+/* 超小屏幕（手机，小于 768px） */
+/* 小屏幕（平板，大于等于 768px） */
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+/* 超小屏幕（手机，小于 768px） */
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+  .login {
+    right: 0;
+    padding-right: 30px; }
+    .login .icon-Dropdown {
+      display: none; } }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  .login {
+    display: block; }
+  .index-text {
+    width: 700px; }
+    .index-text h2 {
+      font-size: 56px;
+      line-height: 1.3; }
+    .index-text p {
+      font-size: 16px;
+      padding-right: 50px; }
+  .index-video {
+    display: block; }
+  .login {
+    right: 50px; }
+    .login .icon-Dropdown {
+      display: block; }
+  .nav {
+    display: block; }
+  .header-menu {
+    display: none; }
+  .search {
+    display: block; }
+  .index-characteristic .item {
+    margin-bottom: 0; }
+    .index-characteristic .item a {
+      margin-top: 30px; }
+  .index-gartner .container {
+    width: 70%; }
+  .index-data-problem .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+  .index-data-problem-img img {
+    width: 800px;
+    max-width: 800px;
+    display: block; }
+  .index-solution .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .index-solution .row-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+  footer .hd, footer .bd {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+  footer .footer-social, footer .footer-demo {
+    text-align: right; } }
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .index-text {
+    width: 920px;
+    padding-left: 180px; }
+    .index-text h2 {
+      color: #fff;
+      font-size: 84px; }
+    .index-text p {
+      color: #fff;
+      font-size: 22px;
+      line-height: 33px; }
+  .index-gartner .container {
+    width: 70%; }
+  /* largest-enterprises */
+  .largest-enterprises {
+    padding: 90px 0; }
+    .largest-enterprises h2 {
+      font-size: 40px;
+      line-height: 52px;
+      margin-bottom: 60px; }
+    .largest-enterprises .item {
+      margin-bottom: 50px; }
+      .largest-enterprises .item h3 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 20px 0; }
+      .largest-enterprises .item p {
+        line-height: 24px;
+        font-size: 16px; } }
+
+@media (max-width: 768px) {
+  .channel-partners .bd .m-btn {
+    margin-top: 15px; } }
